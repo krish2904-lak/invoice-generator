@@ -218,7 +218,7 @@ const InvoicePreview = ({ data }) => {
         <div className="terms-section">
           <strong>Terms & Conditions:</strong>
           <ol>
-            <li>Payment within 0 days from bill date.</li>
+            <li>Payment within 30 days from bill date.</li>
             <li>Payment should be made by A/c pay Chq/DD/Net Banking only.</li>
             <li>Goods once sold will not be taken back.</li>
             <li>All disputes subject to BHILWARA jurisdiction only.</li>

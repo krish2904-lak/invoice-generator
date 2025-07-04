@@ -71,7 +71,7 @@ const InvoicePreview = ({ data }) => {
         </div>
          <div className="right-header">
     <div className="gst-block">
-      <p><strong>GSTIN:</strong> 08AAOPJ6518J1ZA</p>
+      <p><strong>GSTIN:</strong> {invoiceDetails.gstin}</p>
       <p><strong>Bill No:</strong> {invoiceDetails.billNo}</p>
       <p><strong>Bill Date:</strong> {invoiceDetails.billDate}</p>
     </div>
